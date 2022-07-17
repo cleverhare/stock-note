@@ -122,3 +122,7 @@ addBtn.addEventListener("click", (e) => {
     closeIcon.click();
   }
 });
+let hireme = document.getElementById('hireme')
+hireme.addEventListener("click", ()=>{
+  window.open('https://fiverr.com/cleverhare', '_blank');
+})

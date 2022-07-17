@@ -20,6 +20,7 @@ body {
 .logo, .logo img{
   width: 100px;
   height: 80px;
+  cursor: pointer;
 }
 .navbar ul{
   display: flex;
