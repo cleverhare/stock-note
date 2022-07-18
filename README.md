@@ -9,8 +9,10 @@ This is a notes application made using JavaScript which features Nice UI and ani
 
 ## Screenshots
 
-![App Screenshot](https://screenshot-proxy.netlify.app/f_webp,w_336/https://d33wubrfki0l68.cloudfront.net/62d3efd81cb3d20008b9d0b1/screenshot_2022-07-17-11-18-05-0000.png)
-## Please Note:- New Color Themes coming soon
+![App Screenshot](media/screenshot4.png)
+![App Screenshot](media/screenshot2.png)
+![App Screenshot](media/screenshot3.png)
+
 
 
 ## Run On your local Machine
@@ -30,10 +32,16 @@ Now find index.html file and Click to Run it.  (On your Favorite Browser)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/scaresteeler)
 
 [![Fiverr](https://img.shields.io/badge/Fiverr-3ea088?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/cleverhare)
+
+
+## Future Updates
+- New Color Themes
+- Alarm Feature
+- And many More :)
+
 ## Tribute
 
 Thanks For making it till the end! Your Support is always accepted. Thanks :)
-
 
 ## Live Link
 
