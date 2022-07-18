@@ -9,10 +9,6 @@ This is a notes application made using JavaScript which features Nice UI and ani
 
 ## Screenshots
 
-![App Screenshot](media/screenshot4.png)
-![App Screenshot](media/screenshot2.png)
-![App Screenshot](media/screenshot3.png)
-
 
 
 ## Run On your local Machine
