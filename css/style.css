@@ -115,6 +115,10 @@ header,
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
+  transition: 0.1s;
+}
+.add-box:hover {
+margin-top: -10px;
 }
 .add-box .icon {
   height: 78px;
@@ -124,6 +128,22 @@ header,
   border-radius: 50%;
   justify-content: center;
   border: 2px dashed #88abff;
+  transition: 01s;
+}
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+.add-box .icon:hover {
+  animation: animate 0.5s ;
+  border: 2px solid #88abff;
 }
 .add-box p {
   color: #88abff;
