@@ -36,7 +36,7 @@ body {
   transition: 0.5s;
 }
 .navbar ul li a:hover {
-  color: #88abff;
+  color: #dc2f55;
 }
 /* From uiverse.io by @satyamchaudharydev */
 /* === removing default button style ===*/
@@ -52,7 +52,7 @@ body {
 .button {
   --border-right: 6px;
   --text-stroke-color: rgba(255, 255, 255, 0.6);
-  --animation-color: #88abff;
+  --animation-color: #dc2f55;
   --fs-size: 2em;
   letter-spacing: 3px;
   text-decoration: none;
@@ -84,7 +84,7 @@ body {
 
 ::selection {
   color: #021622;
-  background: #37ff8b;
+  background: #dc2f55;
 }
 
 /* main page styling starts here  */
@@ -97,7 +97,7 @@ body {
   left: 50%;
   background-color: #000049;
   color: #fff;
-  box-shadow: 0 15px 25px rgb(50 50 50 / 15%);
+  box-shadow: 4px 15px 25px rgb(50 50 50 / 15%);
   border-radius: 8px;
   display: flex;
   /* flex-direction: column; */
@@ -127,23 +127,39 @@ body {
 .brands {
   transition: 0.5s;
 }
-.brands:hover {
+.brands:nth-child(2):hover,
+.brands:nth-child(3):hover {
   text-align: center;
   border-radius: 50%;
   width: 20px;
   padding: 5px 10px;
   background-color: #1051e7;
 }
-.section2{
-    margin-left: 100px;
+.brands:nth-child(1):hover{
+  text-align: center;
+  border-radius: 50%;
+  width: 20px;
+  padding: 5px 10px;
+  background-color: rgb(247, 49, 76);
 }
-.section1{
-    margin-right: 100px;
+.brands:nth-child(4):hover{
+  text-align: center;
+  border-radius: 50%;
+  width: 20px;
+  padding: 5px 10px;
+  background-color: #2a8d4b;
+} 
+.section2 {
+  margin-left: 100px;
+}
+.section1 {
+  margin-right: 100px;
 }
 .form {
   background-color: #15172b;
   border-radius: 20px;
-  box-sizing: border-box;
+  /* opacity: 0.76; */
+  box-shadow: 4px 21px 58px 20px #000;
   height: 500px;
   padding: 20px;
   width: 320px;
@@ -251,8 +267,11 @@ body {
   outline: 0;
   text-align: center;
   width: 100%;
+  transition: 0.2s;
 }
-
+.submit:hover {
+  opacity: 0.9;
+}
 .submit:active {
   background-color: #06b;
 }
