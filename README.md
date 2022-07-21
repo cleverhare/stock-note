@@ -8,6 +8,14 @@ This is a notes application made using JavaScript which features Nice UI and ani
 
 
 ## Screenshots
+![App Screenshot](media/screenshot4.png)
+![App Screenshot](media/screenshot2.png)
+![App Screenshot](media/screenshot3.png)
+
+=======
+![App Screenshot](https://screenshot-proxy.netlify.app/f_webp,w_336/https://d33wubrfki0l68.cloudfront.net/62d3f4def9d0aa0009475890/screenshot_2022-07-17-11-39-17-0000.png)
+## Please Note:- New Color Themes coming soon. Hope you liked this one :)
+=======
 ![App Screenshot](/media/screenshot4.png)
 ![App Screenshot](/media/screenshot2.png)
 ![App Screenshot](/media/screenshot3.png)
