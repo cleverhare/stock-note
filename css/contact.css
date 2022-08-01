@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  cursor: none;
 }
+
 body {
   background-color: #88abff;
   height: 800px;
@@ -21,7 +23,7 @@ body {
 .logo img {
   width: 100px;
   height: 80px;
-  cursor: pointer;
+  cursor: none;
 }
 .navbar ul {
   display: flex;
@@ -45,7 +47,7 @@ body {
   background: transparent;
   padding: 0;
   border: none;
-  cursor: pointer;
+  cursor: none;
 }
 
 /* button styling */
@@ -121,7 +123,7 @@ body {
 }
 .fa-brands {
   margin-left: 5px;
-  cursor: pointer;
+  cursor: none;
   border-radius: 50%;
 }
 .brands {
@@ -260,7 +262,7 @@ body {
   border: 0;
   box-sizing: border-box;
   color: #eee;
-  cursor: pointer;
+  cursor: none;
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
@@ -274,4 +276,18 @@ body {
 }
 .submit:active {
   background-color: #06b;
+}
+/* cursor styling  */
+
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #e82650;
+  opacity: .7;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .9s, height .9s, opacity .9s;
 }
