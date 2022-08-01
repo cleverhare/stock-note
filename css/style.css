@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  cursor: none;
 }
 body {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -20,7 +21,7 @@ body {
 .logo, .logo img{
   width: 100px;
   height: 80px;
-  cursor: pointer;
+  cursor: none;
 }
 .navbar ul{
   display: flex;
@@ -44,7 +45,7 @@ body {
   background: transparent;
   padding: 0;
   border: none;
-  cursor: pointer;
+  cursor: none;
 }
 
 /* button styling */
@@ -112,7 +113,7 @@ header,
   justify-content: space-between;
 }
 .add-box {
-  cursor: pointer;
+  cursor: none;
   flex-direction: column;
   justify-content: center;
   transition: 0.1s;
@@ -201,7 +202,7 @@ margin-top: -10px;
 }
 .bottom-content .settings i {
   color: #6d6d6d;
-  cursor: pointer;
+  cursor: none;
   font-size: 15px;
 }
 .settings .menu {
@@ -225,7 +226,7 @@ margin-top: -10px;
   font-size: 16px;
   margin-bottom: 2px;
   padding: 17px 15px;
-  cursor: pointer;
+  cursor: none;
   box-shadow: none;
   border-radius: 0;
   justify-content: flex-start;
@@ -289,7 +290,7 @@ margin-top: -10px;
 }
 .content header i {
   color: #8b8989;
-  cursor: pointer;
+  cursor: none;
   font-size: 23px;
 }
 .content form {
@@ -326,7 +327,7 @@ form button {
   color: #fff;
   outline: none;
   border: none;
-  cursor: pointer;
+  cursor: none;
   font-size: 17px;
   border-radius: 4px;
   background: #37FF8B;
@@ -344,4 +345,41 @@ form button {
   .bottom-content .settings i {
     font-size: 17px;
   }
+}
+/* cusor animation for notes app  */
+
+.cursor{
+  z-index: 999;
+  position: fixed;
+  background: #e82650;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 20px #e82650,
+              0 0 60px #e82650,
+              0 0 100px #e82650;
+  animation: colors 5s infinite;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+@keyframes colors{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.cursor:before{
+  content: '';
+  position: absolute;
+  background: #e82650;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
 }
