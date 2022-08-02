@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  cursor: none;
+  /* cursor: pointer; */
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 .logo img {
   width: 100px;
   height: 80px;
-  cursor: none;
+  cursor: pointer;
 }
 .navbar ul {
   display: flex;
@@ -47,7 +47,7 @@ body {
   background: transparent;
   padding: 0;
   border: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 /* button styling */
@@ -123,7 +123,7 @@ body {
 }
 .fa-brands {
   margin-left: 5px;
-  cursor: none;
+  cursor: pointer;
   border-radius: 50%;
 }
 .brands {
@@ -262,7 +262,7 @@ body {
   border: 0;
   box-sizing: border-box;
   color: #eee;
-  cursor: none;
+  cursor: pointer;
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
