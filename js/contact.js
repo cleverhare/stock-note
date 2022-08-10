@@ -12,7 +12,7 @@ function sendEmail(params) {
     let emailval = document.getElementById('email').value
     let message = document.getElementById('message').value
     Email.send({
-        SecureToken : "2d08c861-cd0f-40af-9793-58a518c9040d",
+        SecureToken : "4fdde855-1fa4-48d5-8d53-162467faf174",
         To : 'soumyajitbrah@gmail.com',
         From : "soumyajitbrah@gmail.com",
         Subject : `This is a query from ${val1}`,
@@ -96,7 +96,7 @@ function sendEmail(params) {
         </html>`
     })
     Email.send({
-        SecureToken : "2d08c861-cd0f-40af-9793-58a518c9040d",
+        SecureToken : "4fdde855-1fa4-48d5-8d53-162467faf174",
         To : `${emailval}`,
         From : "soumyajitbrah@gmail.com",
         Subject : `Hi ${val1}, Welcome to Stock-Note`,
