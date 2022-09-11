@@ -36,11 +36,17 @@ Now find index.html file and Click to Run it.  (On your Favorite Browser)
 - Alarm Feature
 - And many More :)
 
-## Tribute
 
-Thanks For making it till the end! Your Support is always accepted. Thanks :)
 
 ## Live Link
 
 https://stock-note.netlify.app/
+
+## Get 100$ from Digital Ocean By Using The Below Link
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=c647ba0bbd0b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+## Tribute
+
+Thanks For making it till the end! Your Support is always accepted. Thanks :)
 
